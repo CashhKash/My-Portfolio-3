@@ -2,42 +2,174 @@
 <html>
     <head>
         <title>My Resume🎀</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
-        <h1>Welcome to my Resume❤︎</h1>
-        <h2>My name is Kashish Sinha</h2>
-        <img src = "./me.jpg"
-            height = "200"
-            width = "auto"
-            />
-        <h2>Summary 🐚:</h2>
-        <h3>Hey this is Kashish Sinha! I am a second year student persuing computer science in KIIT university. I believe that i have the ability to bounce back and get through all the problems and hurdles like a baddie i am✨</h3>
-        <h2>My Educational Qualifications🫧:</h2>
-        <ul>
-            <h3>2020-2022: Took PCM and completed Secondary High School from Delhi Public School,Dhanbad.</li></h3><li>
-            <h3><li>2023-2027: Persuing BTech in Computer Science from KIIT Universiy.</li></h3>
-        </ul>
-        <h2>Work Experience 🌊:</h2>
-        <h3>I have no prior work experience but i am looking forward to enter a workspace and learn about the ambiance. Somebody starts from some place yk ⸜(｡˃ ᵕ ˂ )⸝♡</h3>
-        <h2>Skills 🎯:</h2>
-        <ul>
-            <h3><li>Intermediate level C programing</li></h3>
-            <h3><li>Advance level Python</li></h3>
-            <h3><li>Adnave level HTML</li></h3>
-            <h3><li>Begginer level MS Exel</li></h3>
-            <h3><li>Digital Marketing</li></h3>
-        </ul>
-        <h2>Here is the link if you want to know more about me𐙚:</h2>
-        <h3><a href = "./hobbies.html">Click here to know my hobbies𓍢ִ໋🌷͙֒</a></h3>
-        <h2>Here is the link to Contact Me ฅ^•ﻌ•^ฅ:</h2>
-        <h3><a href = "./contact.html">Click here to Contact Me🧸</a></h3>
-        <hr/>
-        <h5>             Thank you!!!!!!!           </h5>
-        <footer>
-            <small>
-                Copyright &#169 2024 Football History Archives. All Rights Reserved. 
-            </small>
-        </footer>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" previewlistener="true">
+                <span class="fs-3 fw-bold">Resume🎀</span>
+              </a>
+        
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summmary</a></li>
+                <li class="nav-item"><a href="#Qualification" class="nav-link">Qualification</a></li>
+                <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+              </ul>
+            </header>
+          </div>
+          <div class="container col-xxl-8 px-4">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./me.jpg" class="d-block mx-lg-auto img-fluid rounded-circle" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">My name is   <span id="element">Kashish Sinha</span></h1>
+                <p class="lead" id="summary">Hey this is Kashish Sinha! I am a second year student persuing computer science in KIIT university. I believe that i have the ability to bounce back and get through all the problems and hurdles like a baddie i am✨</h3>
+                    </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Connect</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container px-4 py-5" id="Qualification">
+            <h2 class="pb-2 fw-bold fs-2">My Educational Qualifications🫧</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                  <img src="./klipartz.com.png" alt="" height="40px" class="z-4">
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">School</h3>
+                  <p>Took PCM and completed Secondary High School from Delhi Public School,Dhanbad.</p>
+                  <a href="#" class="btn btn-primary">
+                    Details
+                  </a>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="./klipartz.com.png" alt="" height="40px" class="z-4">
+                  
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">DPS Dhanbad</h3>
+                  <p>Took PCM and completed Secondary High School from Delhi Public School,Dhanbad.</p>
+                  <a href="#" class="btn btn-primary">
+                    Details
+                  </a>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                  <img src="https://kiit.ac.in/wp-content/uploads/2022/10/KIIT-logo-HD.png" alt="" height="30px" class="z-4">
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">KIIT university</h3>
+                  <p>Persuing BTech in Computer Science from KIIT Universiy Bhubneshwar, Odisha, India</p>
+                  <a href="#" class="btn btn-primary">
+                    Details
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="px-4 py-5 my-5 text-center">
+             <h1 class="display-5 fw-bold text-body-emphasis">Work Experience</h1>
+            <div class="col-lg-8 mx-auto">
+              <p class="lead ">I have no prior work experience but i am looking forward to enter a workspace and learn about the ambiance. Somebody starts from some place yk ⸜(｡˃ ᵕ ˂ )⸝♡</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Hire Me</button>
+                <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
+              </div>
+            </div>
+          </div>
+          <div class="container px-4 py-5" id="icon-grid">
+            <h2 class="pb-2 fw-bold fs-3">Skills 🎯</h2>
+        
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+              <div class="col d-flex align-items-start">
+                <img src="./pngegg (1).png" alt="" height="60px" class="px-2 ">
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">C Language</h3>
+                  <p>Intermediate level C programing</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <img src="./python.png" alt="" height="60px" class="px-2">
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Python</h3>
+                  <p>Advance level Python</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <img src="./html.png" alt="" height="60px">
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                  <p>Adnave level HTML</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <img src="./excel.png" alt="" height="50px" class="px-2">
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">MS Excel</h3>
+                  <p>Begginer level MS Exel</p>
+                </div>
+              </div>
+              
+              
+              
+            </div>
+          </div>
+          <div class="container my-5">
+            <div class="p-5 text-center bg-body-tertiary rounded-3">
+              <h1 class="text-body-emphasis">Want to Know More?</h1>
+              <p class="col-lg-8 mx-auto fs-5 text-muted">
+                I have pinned below few links that are written by me about myself, consider visiting those to know me in depth 😈
+              </p>
+              <div class="d-inline-flex gap-2 mb-5">
+                <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+                  My Hobbies
+                  <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+                </button>
+                <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                  Contact Me
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" previewlistener="true">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Kasish Sinha | Portfolio</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./twitter.png" alt="" height="40px"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./insta.png" alt="" height="40px"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./fb.png" alt="" height="40px"></a></li>
+              </ul>
+            </footer>
+          </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Kasish Sinha'],
+              typeSpeed: 50,
+            });
+          </script>
 
     </body>
     
